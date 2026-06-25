@@ -1,30 +1,63 @@
 {
   "version": "2.0",
-  "dataset_id": "on004843",
-  "source": "openneuro",
-  "source_id": "ds004843",
+  "pipeline_stage": "enriched",
   "title": "T16",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tony Johnson": {},
     "Stephen Gordon": {},
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004843.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004843",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004843",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "T16 is an EEG neuroimaging dataset organized according to the Brain Imaging Data Structure (BIDS) standard version 1.8.0. The dataset includes hierarchical event descriptors (HED) version 8.1.0 for detailed annotation of experimental events and conditions. This dataset contains EEG recordings with standardized metadata and event annotations to support reproducible neuroscience research. A comprehensive README.md with detailed information about experimental design, participant demographics, task descriptions, and data collection procedures is required for full validation and DOI minting.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "HED"
+    },
+    {
+      "term": "event annotation"
+    }
+  ],
+  "source_hash": "332ae1d504567fccd29942f9f43e2f5ebd6d99bcf57537354c5a8c7c2c488679"
 }
